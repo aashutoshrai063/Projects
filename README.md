@@ -1,5 +1,5 @@
 # To do list
-Project Description
+Project Description:
 The To-Do List project is a console-based application designed to help users manage their tasks efficiently. Users can add tasks, view pending and completed tasks, edit task details, delete tasks, and mark tasks as completed. The code ensures that tasks are saved and can be retrieved even after the program is closed.
 Features Implemented
 1.	Add Task:
