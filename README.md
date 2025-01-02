@@ -1,4 +1,4 @@
-Project Description
+To do list
 The To-Do List project is a console-based application designed to help users manage their tasks efficiently. Users can add tasks, view pending and completed tasks, edit task details, delete tasks, and mark tasks as completed. The code ensures that tasks are saved and can be retrieved even after the program is closed.
 Features Implemented
 1.	Add Task:
@@ -105,7 +105,7 @@ def mark_task_completed(tasks):
 def main():
     tasks = read_tasks()
 
-    while True:
+while True:
         print("Welcome to To-Do List Manager!")
         print("1. Add Task")
         print("2. View Tasks")
@@ -115,7 +115,7 @@ def main():
         print("6. Exit")
         choice = input("Enter your choice: ")
 
-        if choice == '1':
+if choice == '1':
             add_task(tasks)
         elif choice == '2':
             view_tasks(tasks)
